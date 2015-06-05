@@ -7,7 +7,7 @@ This was simply built as a excersize to help me get use to using Namespaces, Cla
 # How To
 1. Be sure to open src/membership/Config.php in a text editor and edit lines 14-17 to match your SQL database.
 2. I have included a backup of the SQL database I used to get your started. It is backup.SQL
-3. Upload all the files to a directory on your web server. 
+3. Upload all the files (excluding backup.sql) to a directory on your web server. 
 
 Include the following lines of code in each page that you want to only be visible to registered users who are signed in.
 
