@@ -34,5 +34,6 @@ failedLogin will update the SQL database with your IP address and the timestamp 
 
 Also, when you Login it will keep track of your last Login and time. This is for future functionatlity I have yet to program such as a "Users Online" box. 
 
+# Coming Soon
 I will be making updates to this at a later time to include a "Forgot Password" option, a PM system, Users Online, Profiles, Templates, and an Admin panel.
 
