@@ -5,7 +5,12 @@ A simple PHP system designed to allow users to register, login, logout, and have
 This was simply built as a excersize to help me get use to using Namespaces, Classes, Autoloader, and PDO statements. 
 
 # How To
-Upload all the files to a directory on your web server. Then, include the following lines of code in each page that you want to only be visible to registered users who are signed in.
+1. Be sure to open src/membership/Config.php in a text editor and edit lines 14-17 to match your SQL database.
+2. I have included a backup of the SQL database I used to get your started. It is backup.SQL
+3. Upload all the files to a directory on your web server. 
+
+Include the following lines of code in each page that you want to only be visible to registered users who are signed in.
+
 ```
 <?php
     session_start();
